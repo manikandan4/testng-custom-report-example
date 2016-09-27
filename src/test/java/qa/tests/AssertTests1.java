@@ -79,8 +79,8 @@ public class AssertTests1 extends BaseTest
         List<Integer> set2 = new ArrayList<>();
         set1.add(1);
         set2.add(1);
-        set1.add(3);
-        set2.add(3);
+        set1.add(4);
+        set2.add(4);
         set1.add(2);
         set2.add(2);
         Assert.assertEquals(set1, set2);
