@@ -101,7 +101,7 @@ public class CustomReport implements IReporter {
 
     protected void writeBody() {
         writer.print("<body>");
-        writeReportTitle( "TestNG Report" );
+        writeReportTitle( "TestNG Custom Report" );
         writeSuiteSummary();
         writeScenarioSummary();
         writeScenarioDetails();
